@@ -1,0 +1,51 @@
+header{
+    background-color: #4b4b4b;
+    box-shadow: 0 2px 2px #646464;
+}
+.logo-area{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    content: "";
+    margin-left: -75px;
+    text-align: center;
+}
+.logo{
+    width: 150px;
+    height: auto;
+}
+/*----------NAGRADE----------*/
+
+.section-nagrade{
+    padding: 75px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/resources/css/img/vinoteka.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 0 -2px 2px #646464;
+}
+.section-nagrade h1{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.section-nagrade h2{
+    font-size: 1.5em;
+}
+
+.nagrada{
+    margin: 35px 0;
+}
+.section-nagrade img{
+    height: 100px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+.section-nagrade p{
+    text-align: center;
+    font-weight: 500;
+    padding: 0 60px;
+    font-size: 0.9em;
+}

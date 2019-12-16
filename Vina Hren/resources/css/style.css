@@ -1,0 +1,101 @@
+/* Color #BE9E62*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #ffffff;
+    color: #ffffff;
+    font-family: 'Courier Prime', 'Arial',sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+h1{
+    margin: 0;
+}
+
+
+/*--------NAV BAR--------*/
+
+nav{
+    width: 100%;
+    position: relative;
+}
+.main-nav{
+    margin: 0 auto;
+    width: 1140px;
+}
+.main-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.main-nav ul li{
+    float: none;
+    display: inline-block;
+}
+.main-nav ul li:nth-child(1){
+    float: left;
+}
+.main-nav ul li:nth-child(2){
+    float: left;
+}
+.main-nav ul li a{
+    color: #ffffff;
+    margin-left: 30px;
+    margin-top: 35px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+}
+.main-nav ul li a:visited,
+.main-nav ul li a:link{
+    padding: 8px 0;
+    color: #ffffff;
+    margin-left: 25px;
+    margin-top: 35px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.main-nav ul li a:hover,
+.main-nav ul li a:active{
+    border-bottom: 2px solid #BE9E62;
+}
+
+
+
+/*---------FOOTER-------*/
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0
+}
+.social-links{
+    list-style: none;
+    float: right;
+}
+.social-links li{
+    display: inline;
+    margin-right: 20px;
+}
+footer a{
+    color: #fff;
+}
+footer p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.9em
+}
