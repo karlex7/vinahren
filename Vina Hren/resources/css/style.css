@@ -75,7 +75,58 @@ nav{
     border-bottom: 2px solid #BE9E62;
 }
 
+/*--------STICKY NAV-------*/
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #555555ee;
+    box-shadow: 0 2px 2px rgb(83, 83, 83);
+    z-index: 1;
+}
+.sticky .main-nav ul li a:visited,
+.sticky .main-nav ul li a:link{
+    padding: 8px 0;
+    color: #ffffff;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.sticky .logo-area{
+    margin-left: -65px;
+}
+.sticky .logo{
+    width: 110px;
+}
+.sticky .main-nav ul li a:hover,
+.sticky .main-nav ul li a:active{
+    border-bottom: 2px solid #BE9E62;
+}
 
+/*------------MOBILE NAV----------*/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+    z-index: 1;
+}
+.mobile-nav-icon ion-icon{
+    font-size: 2em;
+    color: #ffffff;
+}
+
+/*-----------ANIMATIONA------------*/
+.js--wp-14{
+    opacity: 0;
+}
 
 /*---------FOOTER-------*/
 footer{
@@ -98,4 +149,44 @@ footer p{
     text-align: center;
     font-weight: 300;
     font-size: 0.9em
+}
+
+@media(max-width: 1200px){
+    .mobile-nav-icon{
+        display: inline-block;
+    }
+    
+    .main-nav ul{
+        float: none;
+    }
+    .main-nav ul li{
+        float: none;
+        display: block;
+    }
+    .main-nav ul li:nth-child(1){
+        float: none;
+    }
+    .main-nav ul li:nth-child(2){
+        float: none;
+    }
+    .main-nav{
+        display: none;
+        float: right;   
+    }
+    .main-nav ul li a{
+        margin-right: 25px;
+    }
+    .main-nav ul li a:link,
+    .main-nav ul li a:visited{
+        display: block;
+        border: 0;
+        margin-top: 5px;
+    }
+
+.sticky .main-nav ul li a:visited,
+.sticky .main-nav ul li a:link{
+    
+    border: 0;
+}
+    
 }

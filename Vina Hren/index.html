@@ -3,6 +3,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="vendros/cs/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendros/cs/animate.css">
         <link rel="stylesheet" type="text/css" href="vendros/cs/Grid.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/index.css">
@@ -20,10 +21,11 @@
             </div>
             
             <nav>
-                <div class="logo-area">
-                    <a href="#"><img class="logo" src="/resources/css/img/white-grape-logo-vina-hren-no-backgorud-white-logo.png"></a>
+                <div class="logo-area js--wp-8">
+                    <a href="index.html"><img class="logo" src="/resources/css/img/Logo_Vina_Hren_2018-No-Text.png"></a>
                 </div>
-                <div class="main-nav">
+                <a class="mobile-nav-icon js--nav-icon"><ion-icon id="js--icon" class="js--icon" name="menu"></ion-icon></a>
+                <div class="main-nav js--main-nav">
                     <ul>
                         <li><a href="index.html">Naša bajka</a></li>
                         <li><a href="vina.html">Vina</a></li>
@@ -33,10 +35,12 @@
                 </div>
             </nav>
 
-            <!--<img class="boce" src="/resources/css/img/SveBoce.PNG" alt="Boce vina">-->
+            <div class="row">
+                <img class="img-grape js--wp-1" src="/resources/css/img/white-grape.png">
+            </div>
         </header>
 
-        <section class="section-bajka">
+        <section class="section-bajka js--section-bajka">
             <div class="row">
                 <h2>Naša bajka</h2>
                 <p>Lorem Ipsum je jednostavno probni tekst koji se koristi u tiskarskoj i slovoslagarskoj industriji. Lorem Ipsum postoji kao industrijski standard još od 16-og stoljeća, kada je nepoznati tiskar uzeo tiskarsku galiju slova i posložio ih da bi napravio knjigu s uzorkom tiska. Taj je tekst ne samo preživio pet stoljeća, već se i vinuo u svijet elektronskog slovoslagarstva, ostajući u suštini nepromijenjen. Postao je popularan tijekom 1960-ih s pojavom Letraset listova s odlomcima Lorem Ipsum-a, a u skorije vrijeme sa software-om za stolno izdavaštvo kao što je Aldus PageMaker koji također sadrži varijante Lorem Ipsum-a.</p>
@@ -51,40 +55,40 @@
                 <h1>Vina</h1>
             </div>
             <div class="row">
-                <div class="col span-1-of-3 vino-1">
-                    <a href="#">
+                <div class="col span-1-of-3 vino-1 js--wp-2">
+                    <a href="rose.html">
                         <h2>Rosé</h2>
                         <img class="img-boca" src="/resources/css/img/boca2.PNG">
                     </a>
                 </div>
-                <div class="col span-1-of-3 vino-2">
-                    <a href="#">
+                <div class="col span-1-of-3 vino-2 js--wp-3">
+                    <a href="cabernet-sauvignon.html">
                         <h2>Cabernet <br> Sauvignon</h2>
                         <img class="img-boca" src="/resources/css/img/boca6.PNG">
                     </a>
                 </div>
-                <div class="col span-1-of-3 vino-3">
-                    <a href="#">
+                <div class="col span-1-of-3 vino-3 js--wp-4">
+                    <a href="rajnski-rizling.html">
                         <h2>Rajnski<br> rizling</h2>
                         <img class="img-boca" src="/resources/css/img/boca5.PNG">
                     </a>
                 </div>
             </div>
             <div class="row">
-                <div class="col span-1-of-3 vino-1">
-                    <a href="#">
+                <div class="col span-1-of-3 vino-1 js--wp-5">
+                    <a href="sauvignon.html">
                         <h2>Sauvignon</h2>
                         <img class="img-boca" src="/resources/css/img/boca4.PNG">
                     </a>
                 </div>
-                <div class="col span-1-of-3 vino-2">
-                    <a href="#">
-                        <h2>Couvee</h2>
+                <div class="col span-1-of-3 vino-2 js--wp-6">
+                    <a href="cuvee.html">
+                        <h2>Cuvee</h2>
                         <img class="img-boca" src="/resources/css/img/boca3.PNG">
                     </a>
                 </div>
-                <div class="col span-1-of-3 vino-3">
-                    <a href="#">
+                <div class="col span-1-of-3 vino-3 js--wp-7">
+                    <a href="grasevina.html">
                         <h2>Graševina</h2>
                         <img class="img-boca" src="/resources/css/img/boca1.PNG">
                     </a>
@@ -172,5 +176,9 @@
         
         
     </body>
-    <script async src="/vendros/js/typer.js"></script>
+    <script src="/vendros/js/jquery-3.4.1.min.js"></script>
+    <script  src="/vendros/js/typer.js"></script>
+    <script  src="/vendros/js/jquery.waypoints.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script  src="/resources/js/script.js"></script>
 </html>

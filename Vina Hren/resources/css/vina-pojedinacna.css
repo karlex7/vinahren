@@ -1,3 +1,4 @@
+
 header{
     background-color: #4b4b4b;
     box-shadow: 0 2px 2px #646464;
@@ -41,3 +42,94 @@ h4{
     margin-bottom: 10px;
     margin-left: 10px;
 }
+/*---------OSTALA VINA-----------*/
+
+.section-ostala-vina{
+    margin: 80px 20px;
+}
+.section-ostala-vina a{
+    text-decoration: none;
+}
+.section-ostala-vina img{
+    height: 30vh;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    transition: opacity 0.2s;
+}
+.section-ostala-vina h4{
+    text-align: center;
+}
+.section-ostala-vina img:hover,
+.section-ostala-vina img:active{
+    opacity: 0.5;
+}
+hr{
+    margin: 0 4em;
+}
+
+/*------------MOBILE NAV----------*/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+.mobile-nav-icon ion-icon{
+    font-size: 2em;
+    color: #ffffff;
+}
+
+/*-----------ANIMATIONA------------*/
+.js--wp-15{
+    opacity: 0;
+}
+.js--wp-16{
+    opacity: 0;
+}
+
+@media(max-width: 1200px){
+    .section-vino{
+        margin-top: 0px;
+        padding: 200px 30px 10px 30px;
+    }.mobile-nav-icon{
+        display: inline-block;
+    }
+    .mobile-nav-icon ion-icon{
+        color: #555555;
+    }
+    .main-nav ul{
+        float: none;
+    }
+    .main-nav ul li{
+        float: none;
+        display: block;
+    }
+    .main-nav ul li:nth-child(1){
+        float: none;
+    }
+    .main-nav ul li:nth-child(2){
+        float: none;
+    }
+    .main-nav{
+        display: none;
+        float: right;   
+    }
+    .main-nav ul li a{
+        margin-right: 25px;
+    }
+    .main-nav ul li a:link,
+    .main-nav ul li a:visited{
+        display: block;
+        border: 0;
+        margin-top: 5px;
+        color: #555555;
+    }
+    .img-vino{
+        height: 75vh;
+    }
+
+    
+}
+

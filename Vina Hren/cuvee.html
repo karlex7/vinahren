@@ -3,6 +3,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="vendros/cs/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendros/cs/animate.css">
         <link rel="stylesheet" type="text/css" href="vendros/cs/Grid.css">
         <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/vina-pojedinacna.css">
@@ -12,18 +13,12 @@
     </head>
     <body>
         <header>
-            <div class="hero-text-box">
-                <h6> 
-                    <span class="typer" id="main" data-words="Najbolji Rose 2019." data-delay="100" data-deleteDelay="1750"></span>
-                    <span class="cursor" data-owner="main"></span>
-                </h6>
-            </div>
-            
             <nav>
                 <div class="logo-area">
-                    <a href="#"><img class="logo" src="/resources/css/img/Logo_Vina_Hren_2018-No-Text.png"></a>
+                    <a href="index.html"><img class="logo" src="/resources/css/img/Logo_Vina_Hren_2018-No-Text.png"></a>
                 </div>
-                <div class="main-nav">
+                <a class="mobile-nav-icon js--nav-icon"><ion-icon id="js--icon" class="js--icon" name="menu"></ion-icon></a>
+                <div class="main-nav js--main-nav">
                     <ul>
                         <li><a href="index.html">Naša bajka</a></li>
                         <li><a href="vina.html">Vina</a></li>
@@ -38,54 +33,17 @@
             <div class="row">
                 <div class="col span-1-of-2">
                     <h3>Vina Hren</h3>
-                    <div class="row">
-                        <h2>Rosé</h2>
+                    <div class="row js--wp-15">
+                        <h2>Cuvee</h2>
                     </div>
 
-                    <div class="row">
+                    <div class="row js--wp-14">
                         <div class="col span-1-of-2">
                             <div class="row">
                                 <h3>Tip vina</h3>
                             </div>
                             <div class="row">
-                                <h4>Rosé</h4>
-                            </div>
-                        </div>
-                        <div class="col span-1-of-2">
-                            <div class="row">
-                                <h3>Vinifikacija</h3>
-                            </div>
-                            <div class="row">
-                                <h4>Neutralni</h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col span-1-of-2">
-                            <div class="row">
-                                <h3>Tip grožda</h3>
-                            </div>
-                            <div class="row">
-                                <h4>crno</h4>
-                            </div>
-                        </div>
-                        <div class="col span-1-of-2">
-                            <div class="row">
-                                <h3>Dostupne godine i formati</h3>
-                            </div>
-                            <div class="row">
-                                <h4>2018. | 0,75</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col span-1-of-2">
-                            <div class="row">
-                                <h3>Trenutna berba</h3>
-                            </div>
-                            <div class="row">
-                                <h4>2018.</h4>
+                                <h4>Cuvee</h4>
                             </div>
                         </div>
                         <div class="col span-1-of-2">
@@ -93,17 +51,90 @@
                                 <h3>Regija</h3>
                             </div>
                             <div class="row">
-                                <h4>Zagroje</h4>
+                                <h4>Bregovita Hrvatska</h4>
+                                <h4>Zagorje-Međimurje</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row js--wp-14">
+                        <div class="col span-1-of-2">
+                            <div class="row">
+                                <h3>Tip grožda</h3>
+                            </div>
+                            <div class="row">
+                                <h4>Graševina, Rajnski rizling, Sauvignon</h4>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-2">
+                            <div class="row">
+                                <h3>Dostupne Berbe</h3>
+                            </div>
+                            <div class="row">
+                                <h4>2018. 2019.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row js--wp-14">
+                        <div class="col span-1-of-2">
+                            <div class="row">
+                                <h3>Trenutna berba</h3>
+                            </div>
+                            <div class="row">
+                                <h4>2019.</h4>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-2">
+                            <div class="row">
+                                <h3>Dostupni formati</h3>
+                            </div>
+                            <div class="row">
+                                <h4>0,1875 0,75 1,0</h4>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col span-1-of-2">
-                    <img class="img-vino" src="/resources/css/img/boca2.PNG">
+                <div class="col span-1-of-2 js--wp-16">
+                    <img class="img-vino" src="/resources/css/img/boca3.PNG">
                 </div>
             </div>
         </section>
+        <hr>
         
+        <section class="section-ostala-vina">
+            <div class="row">
+                <div class="col span-1-of-5">
+                    <a href="cabernet-sauvignon.html">
+                        <img src="/resources/css/img/boca6.PNG">
+                        <h4>Cabernet<br>Sauvignon</h4>
+                    </a>
+                </div>
+                <div class="col span-1-of-5">
+                    <a href="grasevina.html">
+                        <img src="/resources/css/img/boca1.PNG">
+                        <h4>Graševina</h4>
+                    </a>
+                </div>
+                <div class="col span-1-of-5">
+                    <a href="rose.html">
+                        <img src="/resources/css/img/boca2.PNG">
+                        <h4>Rosé</h4>
+                    </a>
+                </div>
+                <div class="col span-1-of-5">
+                    <a href="sauvignon.html">
+                        <img src="/resources/css/img/boca4.PNG">
+                        <h4>Sauvignon</h4>
+                    </a>
+                </div>
+                <div class="col span-1-of-5">
+                    <a href="rajnski-rizling.html">
+                        <img src="/resources/css/img/boca5.PNG">
+                        <h4>Rajnski<br>rizling</h4>
+                    </a>
+                </div>
+            </div>
+        </section>
 
         <footer>
             <div class="row">
@@ -124,4 +155,8 @@
             </div>
         </footer>
     </body>
+    <script src="/vendros/js/jquery-3.4.1.min.js"></script>
+    <script  src="/vendros/js/jquery.waypoints.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script  src="/resources/js/script.js"></script>
 </html>

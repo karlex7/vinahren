@@ -18,18 +18,23 @@ header{
     font-size: 1.9em;
 }
 .logo-area{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: absolute;
     left: 50%;
     top: 0%;
     content: "";
-    margin-left: -250px;
+    margin-left: -75px;
     text-align: center;
 }
 .logo{
-    width: 500px;
+    width: 150px;
     height: auto;
+}
+.img-grape{
+    height: 70vh;
+    display: block;
+    margin: 60px auto 0 auto;
 }
 .boce{
     height: 300px;
@@ -53,7 +58,7 @@ header{
     display: block;
     margin: 20px auto;
     color: #555555;
-    width: 700px;
+    width: 800px;
     line-height: 1.5em;
     text-align: justify;
 }
@@ -168,23 +173,48 @@ input[type=submit]:active{
     color: #555555;
 }
 
+/*-----------ANIMATIONA------------*/
+.js--wp-1{
+    opacity: 0;
+}
+.js--wp-2{
+    opacity: 0;
+}
+.js--wp-3{
+    opacity: 0;
+}
+.js--wp-4{
+    opacity: 0;
+}
+.js--wp-5{
+    opacity: 0;
+}
+.js--wp-6{
+    opacity: 0;
+}
+.js--wp-7{
+    opacity: 0;
+}
+.js--wp-8{
+    opacity: 0;
+}
 /*---------QUERIES----------*/
 
 
 @media(max-width: 1600px){
     .logo-area{
-        margin-left: -250px;
+        /*margin-left: -250px;*/
     }
     .logo{
-        width: 500px;
+        /*width: 500px;*/
     }
 }
 @media(max-width: 1200px){
     .logo-area{
-        margin-left: -200px;
+        /*margin-left: -200px;*/
     }
     .logo{
-        width: 400px;
+        /*width: 400px;*/
     }
     .boce{
         height: 200px;
@@ -199,19 +229,48 @@ input[type=submit]:active{
     .kontakt-form{
         width: 80%;
     }
+    .hero-text-box{
+        top: 90%;
+        text-align: center;
+    }
+    .img-grape{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 145px;
+        left: 0;
+        right: 0;
+        height: 70vh;
+        display: block;
+    }
+}
+@media(max-width: 1000px){
+    .shadow{
+        height: 550px;
+        width: 800px;
+    }
+    .hero-text-box{
+        width: 900px;
+    }
 }
 @media(max-width: 900px){
     .shadow{
         height: 500px;
         width: 800px;
     }
+    .hero-text-box{
+        width: 800px;
+    }
+    .section-bajka p{
+        width: 80vw;
+    }
 }
 @media(max-width: 800px){
     .logo-area{
-        margin-left: -150px;
+        /*margin-left: -150px;*/
     }
     .logo{
-        width: 300px;
+        /*width: 300px;*/
     }
     .shadow{
         height: 400px;
@@ -221,7 +280,21 @@ input[type=submit]:active{
         margin-left: 10px;
         padding-right: 30px;
     }
-    .section-bajka p{
+    .img-grape{
+        height: 65vh;
+    }
+    .hero-text-box{
+        width: 700px;
+    }
+}
+
+@media(max-width: 700px){
+    .hero-text-box{
         width: 600px;
     }
+    .shadow{
+        height: 40vh;
+        width: 90vw;
+    }
+    
 }

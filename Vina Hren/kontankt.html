@@ -3,6 +3,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="vendros/cs/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendros/cs/animate.css">
         <link rel="stylesheet" type="text/css" href="vendros/cs/Grid.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/kontakt.css">
@@ -12,18 +13,12 @@
     </head>
     <body>
         <header>
-            <div class="hero-text-box">
-                <h6> 
-                    <span class="typer" id="main" data-words="Najbolji Rose 2019." data-delay="100" data-deleteDelay="1750"></span>
-                    <span class="cursor" data-owner="main"></span>
-                </h6>
-            </div>
-            
             <nav>
                 <div class="logo-area">
-                    <a href="#"><img class="logo" src="/resources/css/img/Logo_Vina_Hren_2018-No-Text.png"></a>
+                    <a href="index.html"><img class="logo" src="/resources/css/img/Logo_Vina_Hren_2018-No-Text.png"></a>
                 </div>
-                <div class="main-nav">
+                <a class="mobile-nav-icon js--nav-icon"><ion-icon id="js--icon" class="js--icon" name="menu"></ion-icon></a>
+                <div class="main-nav js--main-nav">
                     <ul>
                         <li><a href="index.html">Naša bajka</a></li>
                         <li><a href="vina.html">Vina</a></li>
@@ -38,7 +33,7 @@
             <div class="row">
                 <h1>Kontakt</h1>
             </div>
-            <div class="row telefon">
+            <div class="row telefon js--wp-14">
                     <div class="row">
                             <label>Telefon</label>
                         </div>
@@ -46,7 +41,7 @@
                             <a href="tel:049286122">049/286-122</a>
                         </div>
                 </div>
-            <div class="row telefon">
+            <div class="row telefon js--wp-14">
                     <div class="row">
                             <label>Email</label>
                         </div>
@@ -55,7 +50,7 @@
                         </div>
                 </div>
             <h1>Kontaktirajte nas</h1>
-            <div class="row">
+            <div class="row js--wp-14">
                 <form method="post" action="mailto:info@vinahren.eu" class="kontakt-form" enctype="text/plain">
                     <div class="row">
                         <div class="col span-1-of-3">
@@ -129,4 +124,8 @@
             </div>
         </footer>
     </body>
+    <script src="/vendros/js/jquery-3.4.1.min.js"></script>
+    <script  src="/vendros/js/jquery.waypoints.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script  src="/resources/js/script.js"></script>
 </html>

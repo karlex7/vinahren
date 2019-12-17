@@ -90,16 +90,24 @@ input[type=submit]:active{
 iframe{
     display: block;
     margin: 30px auto 50px auto;
+    
 }
 
 /*--------QUERIES---------*/
+
 @media(max-width: 1200px){
-    .kontakt-form{
-        width: 70%;
-    }
+.section-kontakt{
+    padding: 150px 30px 60px 30px;
+}
+iframe{
+    height:30vh;
+    width: 40vw;
+}
+    
 }
 @media(max-width: 900px){
     .kontakt-form{
         width: 80%;
     }
 }
+

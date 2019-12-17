@@ -19,6 +19,7 @@ header{
 }
 
 /*---------VINA------------*/
+
 .section-vina{
     padding: 75px 0;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/resources/css/img/vinoteka.jpg);
@@ -27,15 +28,22 @@ header{
     background-attachment: fixed;
     box-shadow: 0 -2px 2px #646464;
 }
+
+/*.section-vina{
+    padding: 75px 0;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 2px #646464;
+}*/
 .section-vina h1{
     text-align: center;
     margin: 50px 0;
+    /*nema toga*/
 }
 .section-vina a{
     text-decoration: none;
 }
 .section-vina h2{
-    color: #ffffff;
+    color: #ffffff;/*#fff*/
     text-align: center;
 }
 .vino-1{
@@ -52,4 +60,79 @@ header{
     width: auto;
     display: block;
     margin: 10px auto 0 auto;
+}
+/*------------MOBILE NAV----------*/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+.mobile-nav-icon ion-icon{
+    font-size: 2em;
+    color: #ffffff;
+}
+/*-----------ANIMATIONA------------*/
+.js--wp-9{
+    opacity: 0;
+}
+.js--wp-10{
+    opacity: 0;
+}
+.js--wp-11{
+    opacity: 0;
+}
+.js--wp-12{
+    opacity: 0;
+}
+.js--wp-13{
+    opacity: 0;
+}
+.js--wp-14{
+    opacity: 0;
+}
+
+
+@media(max-width: 1200px){
+    .mobile-nav-icon{
+        display: inline-block;
+    }
+    
+    .main-nav ul{
+        float: none;
+    }
+    .main-nav ul li{
+        float: none;
+        display: block;
+    }
+    .main-nav ul li:nth-child(1){
+        float: none;
+    }
+    .main-nav ul li:nth-child(2){
+        float: none;
+    }
+    .main-nav{
+        display: none;
+        float: right;   
+    }
+    .main-nav ul li a{
+        margin-right: 25px;
+    }
+    .main-nav ul li a:link,
+    .main-nav ul li a:visited{
+        display: block;
+        border: 0;
+        margin-top: 5px;
+    }
+
+.sticky .main-nav ul li a:visited,
+.sticky .main-nav ul li a:link{
+    
+    border: 0;
+}
+.section-vina{
+    padding-top: 150px;
+}
+    
 }
