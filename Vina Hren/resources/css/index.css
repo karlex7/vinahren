@@ -32,7 +32,7 @@ header{
     height: auto;
 }
 .img-grape{
-    height: 70vh;
+    height: 80vh;
     display: block;
     margin: 60px auto 0 auto;
 }
@@ -70,7 +70,7 @@ header{
 }
 .shadow
 {
-    background: url(/resources/css/img/Berba.JPG) left top no-repeat;
+    background: url(/resources/css/img/berba.jpg) left top no-repeat;
     box-shadow: 25px 25px 25px 0 white inset, -25px -25px 25px 0 white inset; 
     background-size: cover;
     background-position: center;
